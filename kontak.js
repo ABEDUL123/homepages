@@ -17,7 +17,7 @@ function sendMail() {
 
   // Kirim email jika valid
   emailjs
-    .send("service_81aqzr8", "template_pggug05", params)
+    .send("service_fr93ymk", "template_g37zu62", params)
     .then((res) => {
       console.log(res);
       alert("Your Message Sent Successfully!");
